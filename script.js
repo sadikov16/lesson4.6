@@ -27,7 +27,7 @@ async function getApi(search, key) {
 function renderFunc(array, element){
     element.innerHTML = null
 
-    array.fetch((film) => {
+    array.forEach((film) => {
         let newLi = document.createElement("li")
         let img = document.createElement("img")
 

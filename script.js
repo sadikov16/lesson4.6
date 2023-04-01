@@ -2,7 +2,7 @@
 let elForm = document.querySelector("#form")
 let elList = document.querySelector("#list")
 let key = "c251dfbf"
-let dataArray = []
+// let dataArray = []
 
 elForm.addEventListener("submit", (evt) => {
     evt.preventDefault();
